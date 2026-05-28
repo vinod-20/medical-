@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Stylized clinical X-Ray scanning crosshairs and diagnostics logo -->
+    
+    <!-- Outer concentric circular radar scan -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,24 A30,30 0 1,1 53.9,24"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00F2FE" />
+        
+    <!-- Outer accent ticks -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,12L54,20 M54,88L54,96 M12,54L20,54 M88,54L96,54"
+        android:strokeWidth="3.0"
+        android:strokeColor="#00F2FE" />
+
+    <!-- stylized diagonal bone pairing (represented as minimal X structure) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M39,39 L69,69"
+        android:strokeWidth="6.0"
+        android:strokeLineCap="round"
+        android:strokeColor="#E2E8F0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M69,39 L39,69"
+        android:strokeWidth="6.0"
+        android:strokeLineCap="round"
+        android:strokeColor="#E2E8F0" />
+
+    <!-- Glowing center target node -->
+    <path
+        android:fillColor="#FF2A54"
+        android:pathData="M54,54m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+</vector>

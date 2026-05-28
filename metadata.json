@@ -1,0 +1,6 @@
+{
+  "name": "RIMS X-Reporting",
+  "description": "Radiology Information Management System with X-Reporting tools, PACS viewer, dynamic database, role-based workflows and AI diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
